@@ -20,7 +20,7 @@ app.post('/todos',(req,res)=>{
      res.status(400).send(e);
     })
 })
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('started connecting 3000');
 })
 
